@@ -1,0 +1,152 @@
+body {
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Shadows Ino Light', cursive;
+}
+
+
+/* Headings & Paragaphs */
+.big-heading {
+  font-family: 'Shadows Ino Light', cursive;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.smaller-heading {
+  padding-bottom: 5%;
+}
+
+.big-paragraph {
+  font-family: 'Shadows Ino Light', cursive;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+  text-decoration: none;
+}
+
+/* Sections */
+.colored-section {
+  background-color: skyblue;
+  color: #fff;
+}
+
+.white-section {
+  background-color: snow;
+}
+
+/* Navigation bar */
+.navbar {
+  padding: 4.5rem;
+}
+
+.brand {
+  font-size: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 2.2rem;
+  font-family: 'Indie Flower', cursive;
+}
+
+/* Title section */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.title-image {
+  width: 15%;
+  position: absolute;
+  right: 55%;
+}
+
+.title-text {
+  position: absolute;
+  text-align: center;
+  left: 15%;
+}
+
+.row {
+  padding-bottom: 7%;
+}
+
+/* Education */
+#education {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.image-me {
+  border-radius: 100%;
+  width: 20%;
+  margin-bottom: 5%;
+}
+
+/* Work */
+#work {
+  padding: 0 15%;
+  text-align: center;
+  line-height: 2;
+}
+
+/* Contact section */
+#contact-form {
+  padding-top: 2%;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Footer */
+#footer {
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0% 10%;
+}
+
+.footer-contact .container-fluid {
+  padding: 3% 15%;
+}
+
+.end {
+  padding-right: 2rem;
+}
+
+.end:hover {
+  text-decoration: none;
+}
+
+.made {
+  font-size: smaller;
+}
+
+
+
+
+/* Media queries */
+@media (max-width: 1028px) {
+  #head {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    right: 0;
+  }
+
+  .title-text {
+    left: 0;
+  }
+}
